@@ -137,7 +137,7 @@ content.addEventListener('click', function () {
         text.innerHTML = 'emang gak mirip 100% sih, tapi emang buah-buah nya itu tuh warna-warni';
         play();
     } else if (scene == 6) {
-        text.innerHTML = 'abstrak tapi cantik bget, jadi kita mau tunjukin ke Mbaa';
+        text.innerHTML = 'abstrak tapi cantik banget, jadi kita mau tunjukin ke Mbaa';
         play();
     } else if (scene == 7) {
         text.innerHTML = 'coba deh, luangin waktu bentar buat ngeliatin ini';
@@ -196,7 +196,7 @@ content.addEventListener('click', function () {
         text.innerHTML = 'jadi... let we show you how magical this night would be';
         play();
     } else if (scene == 21) {
-        text.innerHTML = 'u ready?';
+        text.innerHTML = 'are u ready?';
         play();
     } else if (scene == 22) {
         play();
