@@ -119,9 +119,9 @@ content.addEventListener('click', function () {
     if (scene == 0) {
         cover.style.animation = 'fadeout 1s alternate forwards';
         play();
-        console.log('Created by: Intern MSIB');
+        console.log('Created by: Dream');
     } else if (scene == 1) {
-        text.innerHTML = 'pohon nya cantik kan Mbaaa';
+        text.innerHTML = 'pohon nya cantik kan Hopee!!';
         cover.style.zIndex = '-98';
         play();
     } else if (scene == 2) {
@@ -131,19 +131,19 @@ content.addEventListener('click', function () {
         text.innerHTML = 'yang warna-warni itu buah nya, banyak banget ya';
         play();
     } else if (scene == 4) {
-        text.innerHTML = 'pohon ini cerita nya pernah kita bayangin di discuss kita';
+        text.innerHTML = 'pohon ini cerita nya pernah kamu bayangin di imajinasi kamu';
         play();
     } else if (scene == 5) {
         text.innerHTML = 'emang gak mirip 100% sih, tapi emang buah-buah nya itu tuh warna-warni';
         play();
     } else if (scene == 6) {
-        text.innerHTML = 'abstrak tapi cantik banget, jadi kita mau tunjukin ke Mbaa';
+        text.innerHTML = 'abstrak tapi cantik banget, jadi aku tuu mau tunjukin ke kamu';
         play();
     } else if (scene == 7) {
-        text.innerHTML = 'coba deh, luangin waktu bentar buat ngeliatin ini';
+        text.innerHTML = 'coba deh, luangin waktu sebentar buat ngeliatin ini';
         play();
     } else if (scene == 8) {
-        text.innerHTML = 'suka gak? susah banget jagain nya';
+        text.innerHTML = 'suka gak? susah banget jagain nya tau biar ga rusak pohonnya hihih';
         play();
     } else if (scene == 9) {
         text.innerHTML = 'tapi colorful tree ini akan jauh lebih cantik sewaktu malam hari';
@@ -152,13 +152,13 @@ content.addEventListener('click', function () {
         text.innerHTML = 'jadi, kita tunggu sampe malam ya....';
         play();
     } else if (scene == 11) {
-        text.innerHTML = 'HAHAHAH gak kok, bercanda... kita langsung sulapin jadi malam aja ya';
+        text.innerHTML = 'HAHAHAH gak kok, bercanda... kita langsung sulapin jadi malam aja ya, using magic';
         play();
     } else if (scene == 12) {
-        text.innerHTML = 'sini, kita mau kasih mbaa frida kekuatan buat cepetin waktu';
+        text.innerHTML = 'sinii, aku mau kasih kamuu kekuatan buat cepetin waktu';
         play();
     } else if (scene == 13) {
-        text.innerHTML = "coba klik matahari nya deh, We guarantee you'll be amazed";
+        text.innerHTML = "coba klik matahari nya deh, i guarantee you'll be amazed";
         play();
     } else if (scene == 14 && day == 'night') {
         play();
@@ -168,13 +168,13 @@ content.addEventListener('click', function () {
         const actionInterval = setInterval(function () {
             if (count == 3) {
                 clearInterval(actionInterval);
-                text.innerHTML = 'gimana mbaa? cantik gak?';
+                text.innerHTML = 'gimana? cantik kahh?';
             }
             count++;
         }, 500);
     } else if (scene >= 14 && scene <= 43 && day != 'night') {
         scene = 13;
-        text.innerHTML = "coba klik matahari nya deh, We guarantee you'll be amazed";
+        text.innerHTML = "coba klik matahari nya deh, I guarantee you'll be amazed";
         play();
     } else if (scene == 15) {
         text.innerHTML = 'this is a glowing tree too';
@@ -187,13 +187,13 @@ content.addEventListener('click', function () {
         text.innerHTML = 'tapi keliatan nya masih biasa aja ya?';
         play();
     } else if (scene == 18) {
-        text.innerHTML = 'langit nya juga sepi banget gasii mbaa';
+        text.innerHTML = 'langit nya juga sepi banget gasii?';
         play();
     } else if (scene == 19) {
-        text.innerHTML = 'Kita inget Mbaa Frida suka hal yang out of the box, contohnya magical land gitu';
+        text.innerHTML = 'Aku inget kamu suka hal yang cantikk, contohnya magical land gitu';
         play();
     } else if (scene == 20) {
-        text.innerHTML = 'jadi... let we show you how magical this night would be';
+        text.innerHTML = 'jadi... let me show you how magical this night would be';
         play();
     } else if (scene == 21) {
         text.innerHTML = 'are u ready?';
@@ -225,7 +225,7 @@ content.addEventListener('click', function () {
             } else if (count == -4) {
                 text.style.animation = 'fade 2s linear';
                 text.style.fontSize = '30px';
-                text.innerHTML = 'Happy Birthday Mbaa Fridaa!!';
+                text.innerHTML = 'Happy Birthday Hopeeeee!!';
                 clearInterval(actionInterval);
                 scene = 22;
             }
@@ -236,17 +236,17 @@ content.addEventListener('click', function () {
     } else if (scene == 23 && count == -5) {
         text.style.fontSize = '18px';
         text.style.top = '23%';
-        text.innerHTML = 'teruntuk Mbaa Fridaaa, selamat ulang tahun ya mbaaa!! ';
+        text.innerHTML = 'teruntuk kamu, selamat ulang tahun ya!! ';
         play();
     } else if (scene == 24 && count == -5) {
         text.style.fontSize = '18px';
         text.style.top = '23%';
-        text.innerHTML = 'Saat itu, awal kita bertemu, tak kulupakan sendal swallow hijau menjepit kakimu';
+        text.innerHTML = 'Awal kita bertemu, tidak akan kulupakan APEXM yang kini dah punah';
         play();
     } else if (scene == 25 && count == -5) {
         text.style.fontSize = '18px';
         text.style.top = '23%';
-        text.innerHTML = 'kado nya kita kasih 3000 bintang aja ya...';
+        text.innerHTML = 'kado nya aku kasih 3000 bintang aja ya... kamu jauh soalnya hihihi';
         // firefliesF();
         // play();
     } else if (scene == 26 && count == -5) {
@@ -268,41 +268,41 @@ content.addEventListener('click', function () {
         shoots.classList = 'shootingStar one';
         play();
     } else if (scene == 29 && count == -5) {
-        text.innerHTML = 'ituu mbaa ada kan? wkwk';
+        text.innerHTML = 'ituu hopeee ada kan? wkwk';
         shoots.classList = 'shootingStar none';
         play();
     } else if (scene == 30) {
         text.innerHTML = 'oke deh, nih sekali lagi...';
         play();
     } else if (scene == 31) {
-        text.innerHTML = 'inii mbaaa, ayooo make a wish';
+        text.innerHTML = 'inii hopeee, ayooo make a wish';
         shoots.classList = 'shootingStar one';
         play();
     } else if (scene == 32) {
-        text.innerHTML = 'WKWK mbaaa wish apa? Atau gak sempet?';
+        text.innerHTML = 'WKWK kamu wish apa? Atau gak sempet?';
         play();
     } else if (scene == 33) {
         text.innerHTML = 'wkwk kecepatan yaaaaa...';
     } else if (scene == 34) {
-        text.innerHTML = 'oke deh, kita kasih lagi, mau kah mbaa?'
+        text.innerHTML = 'oke deh, aku kasih lagi, mau kah?'
         play();
     } else if (scene == 35) {
-        text.innerHTML = 'tuhhh kitaa spam-in bintang jatuh buat mbaa frida';
+        text.innerHTML = 'tuhhh aku spam-in bintang jatuh buat kamu seorang';
         btn.style.display = 'none';
         shoots.classList = 'shootingStar';
         shoots.innerHTML = '<span></span><span></span><span></span><span></span><span></span>';
         play();
     } else if (scene == 36) {
-        text.innerHTML = 'biar mbaa fridaa bisa make wishes sebanyak mungkinnn';
+        text.innerHTML = 'biar kamu bisa make wishes sebanyak mungkinnn';
         play();
     } else if (scene == 37) {
-        text.innerHTML = 'dan biar kitaa gak dikatain pelit &#128540 HAHA';
+        text.innerHTML = 'dan biar aku gak dikatain pelit &#128540 HAHA';
         play();
     } else if (scene == 38) {
         text.innerHTML = '+ 1 lagi...';
         play();
     } else if (scene == 39) {
-        text.innerHTML = 'kitaa mau bilang';
+        text.innerHTML = 'akuuuu mau bilang';
         play();
     } else if (scene == 40) {
         text.innerHTML = "today is the oldest you have been, and become the bravest version of you so far";
@@ -311,10 +311,10 @@ content.addEventListener('click', function () {
         text.innerHTML = "May God shower you with blessed today and always";
         play();
     } else if (scene == 42) {
-        text.innerHTML = 'and with these 300 stars,...';
+        text.innerHTML = 'and with these 3000 stars,...';
         play();
     } else if (scene == 43) {
-        text.innerHTML = 'We wish you happy!!';
+        text.innerHTML = 'I wish you always be happy!!';
         firefliesF();
     } else if (scene == 44) {
         document.body.classList.add('fireflies');
